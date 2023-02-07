@@ -1,0 +1,53 @@
+body{
+    background-color: #93BFCF;
+    font-family: cursive;
+}
+.info{
+    padding-left: 2%;
+}
+.info > hr{
+    background-color: #0A2647;
+    border-style: none;
+    height: 2px;
+    width: 98%;
+    margin-left: 0.08%;
+}
+h1, h3{
+    color: #144272;
+}
+li{
+    color: white;
+    padding-left: 0.3%;
+}
+th{
+    color: #144272;
+    text-decoration: underline;
+}
+
+td{
+    color: white;
+}
+
+img{
+    border-radius: 100%;
+    border-style: solid;
+    border: 1;
+    border-color: #0A2647;
+}
+ul{
+    list-style-type: custom-counter-style;
+    list-style-type: "\21e8";
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
